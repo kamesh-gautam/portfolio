@@ -1,0 +1,259 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+#header1{
+    display: flex;
+    align-items: center;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+#pages{
+    cursor: pointer;
+    display: flex;
+    column-gap: 20px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700px;    
+}
+a{
+    color: black;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.home-slider{
+    height: 2px;
+    width: 0;
+    background-color:red;
+    transition: width 1s;
+}
+
+.home-page:hover>.home-slider{
+     width: 100%;
+}
+
+
+header button{
+    height: 42px;
+    width: 90px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+}
+
+
+#header2{
+    position: relative;
+}
+
+#btn-slider{
+    height: 42px;
+    width: 0;
+    font-size: 18px;
+    background-color:rgba(180, 141, 141, 0.445);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    position: absolute;
+    top:0;
+    transition: width 1s;
+}
+
+#header2:hover>#btn-slider{
+    width: 90px;
+}
+
+#first{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#first1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#first1>h2{
+    font-size: 36px;
+    font-weight: 700;
+    
+}
+
+#first1>h1{
+    font-size: 50px;
+    font-weight: 700;
+   
+    background-color:linear-gradient(rgb(156, 36, 36));
+    color: transparent;
+    background-clip: text;
+    
+}
+
+
+#first2>img{
+    width: 400px;
+    border-radius: 50px;
+    transform: rotate(10deg)
+}
+
+#first2>img:hover{
+    transform: rotate(0deg);
+    border: 2px solid red;
+}
+
+#download-cv{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: fit-content;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+}
+
+#download-cv:hover{
+    background-color: var(--primary);
+}
+
+
+#download-cv>a{
+    text-decoration: none;
+    color: white;
+}
+
+#second{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.second1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#education{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.education1{
+    cursor: pointer;
+    border: 5px solid red;
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.education1:hover{
+    transform: scale(1.05);
+}
+
+#frontend, #backend, #database, #tools{
+    display: flex;
+    row-gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skill-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 4px solid red;
+    padding: 5px;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+}
+
+#frontend-skills, #backend-skills, #database-skills, #tools-skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 20px;
+    row-gap: 10px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact1{
+    display: flex;
+    align-items: center;
+    row-gap: 10px;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 600;
+    column-gap: 20px;
+    width: 300px;
+}
+
+.contact1>img{
+    width: 10%;
+}
+
+.contact1>span{
+    width: 90%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
